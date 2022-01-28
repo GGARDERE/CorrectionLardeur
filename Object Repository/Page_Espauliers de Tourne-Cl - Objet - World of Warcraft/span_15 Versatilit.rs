@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_Objets Chahuteurs de cadavre</name>
+   <name>span_15 Versatilit</name>
    <tag></tag>
-   <elementGuidId>9cb1c038-fefa-42fc-91b4-17f59e553071</elementGuidId>
+   <elementGuidId>79a082a0-8f40-46b4-aabb-d8865b93dfb8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td > table > tbody > tr > td</value>
+         <key>XPATH</key>
+         <value>//div[@id='tt151074']/table/tbody/tr/td/table/tbody/tr/td/span[6]/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='tt2168']/table/tbody/tr/td/table/tbody/tr/td</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,62 +21,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Chahuteurs de cadavreNiveau d'objet 57Lié quand ramasséPiedsTissuArmure : 2+12 Intelligence+18 EnduranceAugmente votre score de hâte de +13 (0.39% au niveau 70)+11 Versatilité (0.28% au niveau 70)Durabilité 60 / 60</value>
+      <value>15 Versatilité</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tt2168&quot;)/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]</value>
+      <value>id(&quot;tt151074&quot;)/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/span[@class=&quot;q2&quot;]/span[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='tt2168']/table/tbody/tr/td/table/tbody/tr/td</value>
+      <value>//div[@id='tt151074']/table/tbody/tr/td/table/tbody/tr/td/span[6]/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Microsoft acquires Activision Blizzard | Wowhead Weekly #290'])[2]/following::td[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(0.26% au niveau 70)'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='TOP ARTICLES'])[1]/following::td[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(0.38% au niveau 70)'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Lié quand ramassé']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='15 Versatilité']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td/table/tbody/tr/td</value>
+      <value>//span[6]/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//td[(text() = concat(&quot;Chahuteurs de cadavreNiveau d&quot; , &quot;'&quot; , &quot;objet 57Lié quand ramasséPiedsTissuArmure : 2+12 Intelligence+18 EnduranceAugmente votre score de hâte de +13 (0.39% au niveau 70)+11 Versatilité (0.28% au niveau 70)Durabilité 60 / 60&quot;) or . = concat(&quot;Chahuteurs de cadavreNiveau d&quot; , &quot;'&quot; , &quot;objet 57Lié quand ramasséPiedsTissuArmure : 2+12 Intelligence+18 EnduranceAugmente votre score de hâte de +13 (0.39% au niveau 70)+11 Versatilité (0.28% au niveau 70)Durabilité 60 / 60&quot;))]</value>
+      <value>//span[(text() = '15 Versatilité' or . = '15 Versatilité')]</value>
    </webElementXpaths>
 </WebElementEntity>

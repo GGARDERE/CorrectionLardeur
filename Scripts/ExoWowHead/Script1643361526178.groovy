@@ -67,12 +67,6 @@ WebUI.verifyElementText(findTestObject('Page_Chahuteurs de cadavre - Objet - Wor
 WebUI.verifyElementText(findTestObject('Page_Chahuteurs de cadavre - Objet - World _4f6cc4/Page_Chahuteurs de cadavre - Objet - World of Warcraft/span_11 Versatilit'), 
     '11 Versatilité')
 
-WebUI.verifyElementText(findTestObject('Page_Chahuteurs de cadavre - Objet - World _4f6cc4/Page_Chahuteurs de cadavre - Objet - World of Warcraft/td_Objets Chahuteurs de cadavre'), 
-    'Durabilité 60 / 60')
-
-WebUI.verifyElementText(findTestObject('Page_Chahuteurs de cadavre - Objet - World _4f6cc4/Page_Chahuteurs de cadavre - Objet - World of Warcraft/td_Niveau 10 requisPrix de Vente 11 81 49'), 
-    'Niveau 10')
-
 WebUI.back()
 
 WebUI.waitForElementClickable(findTestObject('Page_Lardeur - PNJ - World of Warcraft/a_Chausses de Lardeur'), 20)
@@ -95,16 +89,13 @@ WebUI.verifyElementText(findTestObject('Page_Chausses de Lardeur - Objet - World
     'Armure : 6')
 
 WebUI.verifyElementText(findTestObject('Page_Chausses de Lardeur - Objet - World of_f93b8d/Page_Chausses de Lardeur - Objet - World of Warcraft/span_16 Agilit or Intelligence'), 
-    '+16 {Agilité or Intelligence]')
+    '+16 [Agilité or Intelligence]')
 
 WebUI.verifyElementText(findTestObject('Page_Chausses de Lardeur - Objet - World of_f93b8d/Page_Chausses de Lardeur - Objet - World of Warcraft/span_24 Endurance'), 
     '+24 Endurance')
 
-WebUI.verifyElementText(findTestObject('Page_Chausses de Lardeur - Objet - World of_f93b8d/Page_Chausses de Lardeur - Objet - World of Warcraft/span_Augmente votre score de coup critique de 21 (0.60 au niveau 70)'), 
-    '')
-
 WebUI.verifyElementText(findTestObject('Page_Chausses de Lardeur - Objet - World of_f93b8d/Page_Chausses de Lardeur - Objet - World of Warcraft/span_12 Versatilit (0.30 au niveau 70)'), 
-    'Augmente de votre score de coup critique de +21 (0.60% au niveau 70)')
+    '+12 Versatilité (0.30% au niveau 70)')
 
 WebUI.back()
 
@@ -136,25 +127,39 @@ WebUI.verifyElementText(findTestObject('Page_Pioche en fer froid - Objet - World
 WebUI.verifyElementText(findTestObject('Page_Pioche en fer froid - Objet - World of_f9e5d0/Page_Pioche en fer froid - Objet - World of Warcraft/span_24 Endurance'), 
     '+24 Endurance')
 
-WebUI.verifyElementText(findTestObject('Page_Pioche en fer froid - Objet - World of_f9e5d0/Page_Pioche en fer froid - Objet - World of Warcraft/span_Augmente votre score de coup critique de 13 (0.37 au niveau 70)'), 
-    'Augmente votre score de coup critique de +13 (0.37% au niveau 70)')
-
-WebUI.verifyElementText(findTestObject('Page_Pioche en fer froid - Objet - World of_f9e5d0/Page_Pioche en fer froid - Objet - World of Warcraft/span_Augmente votre score de hte de 19 (0.58 au niveau 70)'), 
-    'Augmente votre score de hâte de +19 (0.58% au niveau 70)')
-
 WebUI.back()
 
 WebUI.waitForElementClickable(findTestObject('Page_Lardeur - PNJ - World of Warcraft/a_Grves de gelier voles'), 20)
 
+WebUI.scrollToElement(findTestObject('Page_Lardeur - PNJ - World of Warcraft/a_Grves de gelier voles'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Lardeur - PNJ - World of Warcraft/a_Grves de gelier voles'))
 
-WebUI.verifyElementText(findTestObject(null), '')
+WebUI.verifyElementText(findTestObject('Page_Grves de gelier voles - Objet - World of Warcraft/b_Grves de gelier voles'), 
+    'Grèves de geôlier volées')
+
+WebUI.verifyElementText(findTestObject('Page_Grves de gelier voles - Objet - World of Warcraft/span_16 Agilit or Intelligence'), 
+    '+16 [Agilité or Intelligence]')
+
+WebUI.verifyElementText(findTestObject('Page_Grves de gelier voles - Objet - World of Warcraft/span_24 Endurance'), '+24 Endurance')
 
 WebUI.back()
 
 WebUI.waitForElementClickable(findTestObject('Page_Lardeur - PNJ - World of Warcraft/a_Espauliers de Tourne-Cl'), 20)
 
+WebUI.scrollToElement(findTestObject('Page_Lardeur - PNJ - World of Warcraft/a_Espauliers de Tourne-Cl'), 20)
+
 WebUI.click(findTestObject('Object Repository/Page_Lardeur - PNJ - World of Warcraft/a_Espauliers de Tourne-Cl'))
 
-WebUI.verifyElementText(findTestObject(null), '')
+WebUI.verifyElementText(findTestObject('Page_Espauliers de Tourne-Cl - Objet - World of Warcraft/b_Espauliers de Tourne-Cl'), 
+    'Espauliers de Tourne-Clé')
+
+WebUI.verifyElementText(findTestObject('Page_Espauliers de Tourne-Cl - Objet - World of Warcraft/span_12 Force or Intelligence'), 
+    '+12 [Force or Intelligence]')
+
+WebUI.verifyElementText(findTestObject('Page_Espauliers de Tourne-Cl - Objet - World of Warcraft/span_15 Versatilit'), '15 Versatilité')
+
+WebUI.verifyElementText(findTestObject('Page_Espauliers de Tourne-Cl - Objet - World of Warcraft/span_18 Endurance'), '+18 Endurance')
+
+WebUI.closeBrowser()
 
